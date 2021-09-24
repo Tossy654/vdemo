@@ -31,7 +31,7 @@ cat << EOF > ${DIR_TMP}/heroku.json
 EOF
 
 # Get V2Ray executable release
-curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL github.com/Tossy654/demo/releases/4.42.2/download/linux-64.zip -o ${DIR_TMP}/v2ray_dist.zip
+curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL github.com/Tossy654/demo/releases/download/4.42.2/linux-64.zip -o ${DIR_TMP}/v2ray_dist.zip
 busybox unzip ${DIR_TMP}/v2ray_dist.zip -d ${DIR_TMP}
 
 # Convert to protobuf format configuration
