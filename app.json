@@ -13,10 +13,10 @@
         },
         "WSPATH": {
             "description": "WebSocket Path",
-            "value": "/"
+            "value": "/tv"
         }
     },
-    "website": "https://www.apple.com",
+    "website": "http://www.apple.com",
     "repository": "https://github.com/Tossy654/demo",
     "stack": "container"
 }
