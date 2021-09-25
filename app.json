@@ -9,11 +9,11 @@
         },
         "AID": {
             "description": "AlterID",
-            "value": ${{secrets.AlterID}}
+            "value": ${{secrets.ALTERID}}
         },
         "WSPATH": {
             "description": "WebSocket Path",
-            "value": ${{secrets.ws}}
+            "value": ${{secrets.WS}}
         }
     },
     "website": "http://www.apple.com",
