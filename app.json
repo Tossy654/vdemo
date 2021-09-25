@@ -5,15 +5,15 @@
     "env": {
         "ID": {
             "description": "UUID",
-            "value": "7c2e3567-ff16-4ca7-8f97-1d83b76c2d72"
+            "value": ${{secrets.UUID}}
         },
         "AID": {
             "description": "AlterID",
-            "value": "64"
+            "value": ${{secrets.AlterID}}
         },
         "WSPATH": {
             "description": "WebSocket Path",
-            "value": "/"
+            "value": ${{secrets.ws}}
         }
     },
     "website": "http://www.apple.com",
